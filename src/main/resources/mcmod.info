@@ -1,0 +1,16 @@
+[
+{
+  "modid": "TestLMR",
+  "name": "Test LMR",
+  "description": "Test by Tim.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["timoteo2000"],
+  "credits": "Me, Pahimar for his Let's Mod series and the New Boston for their Java tutorials.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
