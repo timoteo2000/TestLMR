@@ -3,11 +3,11 @@ package net.timoteo2000.TestLMR;
 
 import net.minecraftforge.common.config.Configuration;
 import net.timoteo2000.TestLMR.handler.ConfigHandler;
+import net.timoteo2000.TestLMR.init.ModItems;
 import net.timoteo2000.TestLMR.proxy.IProxy;
 import net.timoteo2000.TestLMR.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.FMLCommonHandler;
-
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -29,6 +29,8 @@ public class TestLMRMod {
 	public void preInit(FMLPreInitializationEvent event){
 		 ConfigHandler.init(event.getSuggestedConfigurationFile());
 		 FMLCommonHandler.instance().bus().register(new ConfigHandler());
+		 
+		 ModItems.init();
 	}
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){

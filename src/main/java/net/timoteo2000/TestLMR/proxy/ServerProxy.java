@@ -1,5 +1,5 @@
 package net.timoteo2000.TestLMR.proxy;
 
-public class ServerProxy {
+public class ServerProxy extends CommonProxy {
 
 }
