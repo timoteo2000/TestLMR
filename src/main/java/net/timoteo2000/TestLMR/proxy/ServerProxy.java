@@ -1,4 +1,4 @@
-package main.java.net.timoteo2000.TestLMR.proxy;
+package net.timoteo2000.TestLMR.proxy;
 
 public class ServerProxy {
 
