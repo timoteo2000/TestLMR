@@ -3,6 +3,7 @@ package net.timoteo2000.TestLMR;
 
 import net.minecraftforge.common.config.Configuration;
 import net.timoteo2000.TestLMR.handler.ConfigHandler;
+import net.timoteo2000.TestLMR.init.ModBlocks;
 import net.timoteo2000.TestLMR.init.ModItems;
 import net.timoteo2000.TestLMR.proxy.IProxy;
 import net.timoteo2000.TestLMR.reference.Reference;
@@ -31,6 +32,8 @@ public class TestLMRMod {
 		 FMLCommonHandler.instance().bus().register(new ConfigHandler());
 		 
 		 ModItems.init();
+		 
+		 ModBlocks.init();
 	}
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){
