@@ -5,6 +5,7 @@ import net.minecraftforge.common.config.Configuration;
 import net.timoteo2000.TestLMR.handler.ConfigHandler;
 import net.timoteo2000.TestLMR.init.ModBlocks;
 import net.timoteo2000.TestLMR.init.ModItems;
+import net.timoteo2000.TestLMR.init.Recipes;
 import net.timoteo2000.TestLMR.proxy.IProxy;
 import net.timoteo2000.TestLMR.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
@@ -34,6 +35,8 @@ public class TestLMRMod {
 		 ModItems.init();
 		 
 		 ModBlocks.init();
+		 
+		 Recipes.init();
 	}
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){
