@@ -1,2 +1,3 @@
 item.testlmr:stoneChunk.name=Chunk of Stone
-tile.testlmr:cobblestoneBrick=Cobblestone Brick
+tile.testlmr:cobblestoneBrick.name=Cobblestone Brick
+itemGroup.testlmr=LMR

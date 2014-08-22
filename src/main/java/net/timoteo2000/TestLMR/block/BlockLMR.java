@@ -5,6 +5,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.timoteo2000.TestLMR.creativetab.CreativeTabLMR;
 import net.timoteo2000.TestLMR.reference.Reference;
 
 public class BlockLMR extends Block {
@@ -14,6 +15,7 @@ public class BlockLMR extends Block {
 	
 	public BlockLMR(){
 		this(Material.rock);
+		this.setCreativeTab(CreativeTabLMR.LMR_TAB);
 	}
 	
 	@Override

@@ -5,11 +5,13 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.timoteo2000.TestLMR.creativetab.CreativeTabLMR;
 import net.timoteo2000.TestLMR.reference.Reference;
 
 public class ItemLMR extends Item {
 	public ItemLMR(){
 		super();
+		this.setCreativeTab(CreativeTabLMR.LMR_TAB);
 	}
 	
 	@Override
