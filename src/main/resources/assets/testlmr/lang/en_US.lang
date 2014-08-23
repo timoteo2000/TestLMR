@@ -1,3 +1,13 @@
-item.testlmr:stoneChunk.name=Chunk of Stone
-tile.testlmr:cobblestoneBrick.name=Cobblestone Brick
+#Creative Tab Names
 itemGroup.testlmr=LMR
+
+#Item Names
+item.testlmr:stoneChunk.name=Chunk of Stone
+
+#Block Names
+tile.testlmr:cobblestoneBrick.name=Cobblestone Brick
+
+#Keys
+keys.testlmr.category=LMR
+keys.testlmr.charge=Charge
+keys.testlmr.release=Release

@@ -2,6 +2,7 @@ package net.timoteo2000.TestLMR;
 
 
 import net.minecraftforge.common.config.Configuration;
+import net.timoteo2000.TestLMR.client.handler.KeyInputEventHandler;
 import net.timoteo2000.TestLMR.handler.ConfigHandler;
 import net.timoteo2000.TestLMR.init.ModBlocks;
 import net.timoteo2000.TestLMR.init.ModItems;
@@ -37,10 +38,12 @@ public class TestLMRMod {
 		 ModBlocks.init();
 		 
 		 Recipes.init();
+		 
+		 proxy.registerKeyBindings();
 	}
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){
-		 
+		 FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 	}
 	 
 	@Mod.EventHandler
